@@ -17,7 +17,6 @@ const Slide = ({
   heading,
   text,
   OnNext,
-  OnSkip,
   activeIndex,
 }: {
   img: any;
@@ -25,7 +24,6 @@ const Slide = ({
   text: string;
   OnNext: any;
   navigation: any;
-  OnSkip: any;
   activeIndex: number;
 }) => {
   // console.log(navigation);
